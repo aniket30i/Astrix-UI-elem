@@ -1,6 +1,6 @@
 /* //////////////////over-trans-layer////////////// */
 
-.overTransLayer {
+.overTransLayerEv {
   display: flex;
   position: absolute;
   height: 100vh;
@@ -8,6 +8,7 @@
   top: 0;
   left: 0;
   z-index: 2;
+  display: none;
 }
 
 /* //////////////////over-trans-layer////////////// */
@@ -36,22 +37,26 @@
 
 /* ///////////////// sidebar-events /////////////// */
 .semSidePanel {
-  background-color: rgba(243, 108, 108, 0.959);
+  background-color: #15181b;
   width: 600px;
 }
 
 .tagLine {
   color: #fff;
-  padding: 50px 40px;
+  padding: 40px 40px;
   font-size: 1.2rem;
 }
+
+/* /////////First section - Top tag////////// */
 
 .focusName {
   font-size: 1.8rem;
   color: #fff;
-  padding-top: 25px;
+  padding-top: 20px;
   padding-left: 40px;
 }
+
+/* /////////Second section- Event name////////// */
 
 .subFocus {
   color: #fff;
@@ -63,7 +68,7 @@
 .pin {
   display: flex;
   gap: 10px;
-  padding-top: 15px;
+  padding-top: 12px;
   padding-left: 42px;
 }
 
@@ -76,7 +81,7 @@
 .dateTime {
   display: flex;
   gap: 10px;
-  padding-top: 15px;
+  padding-top: 12px;
   padding-left: 25px;
 }
 
@@ -94,6 +99,82 @@
   color: #fff;
   font-weight: bolder;
   line-height: 22px;
+}
+
+/* /////////Third section - Event details ////////// */
+
+.tagSubFocus {
+  font-size: 1.2rem;
+  padding-left: 40px;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.imgFocus {
+  display: flex;
+  gap: 5px;
+  height: 200px;
+  width: 60px;
+}
+
+.imgFocus span {
+  height: 150px;
+  width: 140px;
+  padding-top: 40px;
+  transition: transform 0.2s;
+}
+
+.imgFocus img {
+  height: 150px;
+  width: 140px;
+  border-radius: 6px;
+}
+
+.imgFocus span:hover {
+  transform: scale(1.4);
+}
+
+/* /////////Forth section - Artists////////// */
+
+.userInteraction {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-top: 130px;
+  padding-right: 30px;
+  font-size: 1rem;
+}
+
+.qrcontainer {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.qrcode {
+  height: 100px;
+  width: 100px;
+}
+
+.joinBtn {
+  background-color: #ffca5f;
+  border-radius: 30px;
+  padding: 0 10px;
+  height: 60px;
+  align-self: flex-end;
+  transition: ease 0.3s;
+}
+
+.joinBtn:hover {
+  background-color: #f8b01f;
+  transform: scale(1.02);
+}
+
+.joinBtn p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px 10px;
+  border-radius: 15px;
 }
 
 /* ///////////////// sidebar-events /////////////// */

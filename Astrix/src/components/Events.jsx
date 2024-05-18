@@ -2,10 +2,14 @@ import React from "react";
 import styles from "./Events.module.css";
 import pin from "../assets/pictures/pin.png";
 import clock from "../assets/pictures/clock.png";
+import art1 from "../assets/pictures/artist3.jpeg";
+import art2 from "../assets/pictures/artist2.jpg";
+import art3 from "../assets/pictures/artist1.jpeg";
+import qr from "../assets/pictures/qr_code.png";
 
 function Events() {
   return (
-    <div className={styles.overTransLayer}>
+    <div className={styles.overTransLayerEv}>
       <div className={styles.eventImgRun}>Running images</div>
       <div className={styles.venueStrip}>Running venue strip</div>
 
@@ -38,9 +42,28 @@ function Events() {
         </div>
         <div className={styles.tagSubFocus}>
           <h2>Artist Lineup</h2>
-          <div className={styles.imgFocus}></div>
+          <div className={styles.imgFocus}>
+            <span>
+              <img src={art1} alt="xyz" />
+            </span>
+
+            <span>
+              <img src={art2} alt="xyz" />
+            </span>
+
+            <span>
+              <img src={art3} alt="xyz" />
+            </span>
+          </div>
         </div>
-        <div className={styles.userInteraction}></div>
+        <div className={styles.userInteraction}>
+          <div className={styles.qrcontainer}>
+            <img className={styles.qrcode} src={qr} alt="" />
+          </div>
+          <div className={styles.joinBtn}>
+            <p>Join Waitlist</p>
+          </div>
+        </div>
       </div>
     </div>
   );
