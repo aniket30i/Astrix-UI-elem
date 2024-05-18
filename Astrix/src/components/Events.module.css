@@ -1,0 +1,99 @@
+/* //////////////////over-trans-layer////////////// */
+
+.overTransLayer {
+  display: flex;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* //////////////////over-trans-layer////////////// */
+
+/* ///////////////// pictures /////////////// */
+
+.eventImgRun {
+  color: azure;
+  background-color: transparent;
+  height: 100vh;
+  width: 60%;
+  top: 0;
+  left: 0;
+}
+
+/* ///////////////// pictures /////////////// */
+
+/* ///////////////// venue strip /////////////// */
+.venueStrip {
+  color: #fff;
+  background-color: #b9a0ff;
+  width: 100px;
+}
+
+/* ///////////////// venue strip ////////////// */
+
+/* ///////////////// sidebar-events /////////////// */
+.semSidePanel {
+  background-color: rgba(243, 108, 108, 0.959);
+  width: 600px;
+}
+
+.tagLine {
+  color: #fff;
+  padding: 50px 40px;
+  font-size: 1.2rem;
+}
+
+.focusName {
+  font-size: 1.8rem;
+  color: #fff;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+
+.subFocus {
+  color: #fff;
+  display: flex;
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+.pin {
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+  padding-left: 42px;
+}
+
+.pin img {
+  height: 26px;
+  width: 29px;
+  filter: invert(1);
+}
+
+.dateTime {
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+.dateTime img {
+  height: 27px;
+  width: 29px;
+  filter: invert(1);
+}
+
+.focusDetails {
+  width: 360px;
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bolder;
+  line-height: 22px;
+}
+
+/* ///////////////// sidebar-events /////////////// */

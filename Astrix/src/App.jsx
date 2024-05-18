@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import lg from "./assets/pictures/logo_1.png";
+import Events from "./components/Events";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <h1>NTS</h1>
         </div>
       </div>
+
+      <Events />
     </div>
   );
 }
