@@ -22,28 +22,28 @@ function Collections() {
             <h1>Meta</h1>
             <h1>Lives</h1>
           </div>
-          <div className={styles.subFocus}>
-            <span className={styles.slog}>
-              <h3>Live in Astrix</h3>
-            </span>
+        </div>
+        <div className={styles.subFocus}>
+          <span className={styles.slog}>
+            <h3>Live in Astrix</h3>
+          </span>
+        </div>
+        <div className={styles.focusDetails}>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+            assumenda harum aut consequuntur, vel atque voluptas. Voluptatum
+            ducimus nostrum.
+          </p>
+        </div>
+        <div className={styles.headShots}>
+          <div className={styles.headshotContainer}>
+            <img src={hd1} alt="" />
+            <img src={hd2} alt="" />
+            <img src={hd3} alt="" />
+            <img src={hd4} alt="" />
+            <img src={hd5} alt="" />
           </div>
-          <div className={styles.focusDetails}>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
-              assumenda harum aut consequuntur, vel atque voluptas. Voluptatum
-              ducimus nostrum.
-            </p>
-          </div>
-          <div className={styles.headShots}>
-            <div className={styles.headshotContainer}>
-              <img src={hd1} alt="" />
-              <img src={hd2} alt="" />
-              <img src={hd3} alt="" />
-              <img src={hd4} alt="" />
-              <img src={hd5} alt="" />
-            </div>
-            <h3>22K people interested</h3>
-          </div>
+          <h3>22K people interested</h3>
         </div>
       </div>
     </div>
