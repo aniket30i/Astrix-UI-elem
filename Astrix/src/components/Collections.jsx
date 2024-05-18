@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./Collections.module.css";
+import MiniSlider from "./MiniSlider";
 import hd1 from "../assets/pictures/head1.jpg";
 import hd2 from "../assets/pictures/head2.jpg";
 import hd3 from "../assets/pictures/head3.jpg";
 import hd4 from "../assets/pictures/head4.jpg";
 import hd5 from "../assets/pictures/head5.jpg";
+import swip from "../assets/pictures/pchead.jpg";
 
 function Collections() {
   return (
@@ -44,6 +46,12 @@ function Collections() {
             <img src={hd5} alt="" />
           </div>
           <h3>22K people interested</h3>
+        </div>
+        <div className={styles.collections}>
+          <h3>Collectibles</h3>
+          <div className="slidingCard">
+            <MiniSlider image={swip} />
+          </div>
         </div>
       </div>
     </div>

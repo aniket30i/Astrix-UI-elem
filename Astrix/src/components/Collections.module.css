@@ -6,6 +6,7 @@
   top: 0;
   left: 0;
   z-index: 2;
+  /* display: none; */
 }
 
 /* //////////////////over-trans-layer////////////// */
@@ -107,5 +108,12 @@
   padding-left: 20px;
   align-self: center;
   font-size: 1.2rem;
+  font-weight: 400;
   color: #fff;
+}
+
+.collections h3 {
+  color: #fff;
+  padding-left: 60px;
+  padding-top: 20px;
 }
