@@ -5,16 +5,17 @@
 }
 .emblaContainerF {
   display: flex;
-  margin-top: 50px;
   width: auto;
   gap: 30px;
 }
+
 .emblaSlideF {
+  width: 200px;
 }
 .venLoc {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .ft {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }

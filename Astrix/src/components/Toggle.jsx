@@ -1,19 +1,37 @@
-import React, { useState } from "react";
-import "./Toggle.css";
+import { useState } from "react";
+import styles from "./Toggle.module.css";
 
-function Toggle() {
-  const [toggled, setToggled] = useState(false);
+function Toggle(props) {
+  const [isToggled, setToggled] = useState(false);
+
+  const buttonToggleHandler = (toggle) => {
+    setToggled(toggle);
+    props.toggleHandeler(toggle);
+  };
+
   return (
-    <div className="Tog">
+    <div className={styles["btn-main"]}>
       <div
-        className={`toggleBtn ${toggled ? "toggled" : ""}`}
-        onClick={() => setToggled(!toggled)}
+        className={styles["btn-text"]}
+        onClick={() => {
+          buttonToggleHandler(false);
+        }}
       >
-        <span className="thumb">
-          <p>Events</p>
-          <p>Collections</p>
-        </span>
+        <p>Events</p>
       </div>
+      <div
+        className={styles["btn-text"]}
+        onClick={() => {
+          buttonToggleHandler(true);
+        }}
+      >
+        <p>Collections</p>
+      </div>
+      <div
+        className={`${styles["btn-toggle"]} ${
+          isToggled ? styles["btn-toggle-right"] : ""
+        }`}
+      ></div>
     </div>
   );
 }

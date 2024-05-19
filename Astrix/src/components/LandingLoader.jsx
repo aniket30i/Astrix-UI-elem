@@ -1,5 +1,5 @@
 import styles from "./LandingLoader.module.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
   blackLogo,
   concertImg,
@@ -15,18 +15,8 @@ import {
 const LandingLoader = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    // Initially hide the component
-    const timer = setTimeout(() => {
-      setIsVisible(true);
-    }, 0);
-
-    // Cleanup the timer if the component unmounts
-    return () => clearTimeout(timer);
-  }, []);
-
   const handleClick = () => {
-    setIsVisible(false); // Remove the component from the screen on click
+    setIsVisible(true);
   };
   return (
     <div
