@@ -7,13 +7,14 @@ import hd4 from "../assets/pictures/head4.jpg";
 import hd5 from "../assets/pictures/head5.jpg";
 import lg from "../assets/pictures/logo_1.png";
 import { SimpleSlider } from "./SimpleSlider";
+import { MainSliderTwo } from "./MainSliderTwo";
 
 function Collections() {
   return (
     <div className={styles.backGround}>
       <div className={styles.backGroundTpLayer}>
         <img className={styles.lgImg} src={lg} alt="astrix_logo"></img>
-        <h1 className={styles.brandNm}>Atrix.</h1>
+        <h1 className={styles.brandNm}>Astrix.</h1>
       </div>
 
       <div className={styles.midBranding}>
@@ -29,7 +30,9 @@ function Collections() {
         </div>
       </div>
       <div className={styles.overTransLayerCol}>
-        <div className={styles.eventImgRun}>Running images</div>
+        <div className={styles.eventImgRun}>
+          <MainSliderTwo />
+        </div>
         <div className={styles.venueStrip}>
           <div className={styles.MovingText}>
             <div className={styles.con}>

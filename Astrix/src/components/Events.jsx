@@ -7,14 +7,14 @@ import art2 from "../assets/pictures/artist2.jpg";
 import art3 from "../assets/pictures/artist1.jpeg";
 import qr from "../assets/pictures/qr_code.png";
 import lg from "../assets/pictures/logo_1.png";
-import { MainSilderOne } from "./MainSliderOne";
+import { MainSliderOne } from "./MainSliderOne";
 
 function Events() {
   return (
     <div className={styles.backGround}>
       <div className={styles.backGroundTpLayer}>
         <img className={styles.lgImg} src={lg} alt="astrix_logo"></img>
-        <h1 className={styles.brandNm}>Atrix.</h1>
+        <h1 className={styles.brandNm}>Astrix.</h1>
       </div>
 
       <div className={styles.midBranding}>
@@ -30,7 +30,7 @@ function Events() {
       </div>
       <div className={styles.overTransLayerEv}>
         <div className={styles.eventImgRun}>
-          <MainSilderOne />
+          <MainSliderOne />
         </div>
         <div className={styles.venueStrip}>
           <div className={styles.MovingText}>

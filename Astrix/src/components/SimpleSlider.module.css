@@ -39,10 +39,14 @@
 }
 
 .yearStamp {
-  background-color: #000;
+  background-color: #fff;
   border-radius: 20px;
   padding: 5px;
   font-size: 8px;
+}
+
+.yearStamp p {
+  color: #fff;
 }
 
 .collectibleName {
