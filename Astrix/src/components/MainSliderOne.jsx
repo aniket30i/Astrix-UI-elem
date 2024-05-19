@@ -8,7 +8,7 @@ import mos4 from "../assets/pictures/concert.jpg";
 import Autoplay from "embla-carousel-autoplay";
 
 export function MainSilderOne() {
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+  const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
 
   return (
     <div className={styles.embla} ref={emblaRef}>
