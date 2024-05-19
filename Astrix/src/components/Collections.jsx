@@ -94,6 +94,9 @@ function Collections() {
               <SimpleSlider />
             </div>
           </div>
+          <div className={styles.joinBtn}>
+            <p>Join Waitlist</p>
+          </div>
         </div>
       </div>
     </div>

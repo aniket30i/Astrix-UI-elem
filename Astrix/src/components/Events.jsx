@@ -7,6 +7,7 @@ import art2 from "../assets/pictures/artist2.jpg";
 import art3 from "../assets/pictures/artist1.jpeg";
 import qr from "../assets/pictures/qr_code.png";
 import lg from "../assets/pictures/logo_1.png";
+import { MainSilderOne } from "./MainSliderOne";
 
 function Events() {
   return (
@@ -28,7 +29,9 @@ function Events() {
         </div>
       </div>
       <div className={styles.overTransLayerEv}>
-        <div className={styles.eventImgRun}>Running images</div>
+        <div className={styles.eventImgRun}>
+          <MainSilderOne />
+        </div>
         <div className={styles.venueStrip}>
           <div className={styles.MovingText}>
             <div className={styles.con}>
