@@ -28,4 +28,9 @@
 .thumb p {
   color: #fff;
   font-size: 1.2rem;
+  transition: color 0.1s ease; /* Add transition for color change */
+}
+
+.thumb p.active {
+  color: #000; /* Color for the highlighted text */
 }

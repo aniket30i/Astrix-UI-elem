@@ -69,14 +69,14 @@
 .eventImgRun {
   color: azure;
   background-color: transparent;
-  height: 100vh;
+  height: auto;
   width: 60%;
   top: 0;
   left: 0;
 }
 
 .eventImgRun {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 /* ///////////////// pictures /////////////// */
@@ -136,7 +136,7 @@
 /* ///////////////// sidebar-events /////////////// */
 .semSidePanel {
   background-color: #15181b;
-  width: 600px;
+  width: 500px;
 }
 
 .tagLine {
@@ -230,7 +230,7 @@
 .joinBtn {
   background-color: #ffca5f;
   margin-top: 50px;
-  margin-left: 370px;
+  margin-left: 320px;
   border-radius: 30px;
   padding: 0 10px;
   height: 60px;

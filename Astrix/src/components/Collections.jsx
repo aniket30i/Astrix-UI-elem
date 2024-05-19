@@ -8,6 +8,7 @@ import hd5 from "../assets/pictures/head5.jpg";
 import lg from "../assets/pictures/logo_1.png";
 import { SimpleSlider } from "./SimpleSlider";
 import { MainSliderTwo } from "./MainSliderTwo";
+import { FeatureSlider } from "./FeatureSlider";
 
 function Collections() {
   return (
@@ -31,6 +32,7 @@ function Collections() {
       </div>
       <div className={styles.overTransLayerCol}>
         <div className={styles.eventImgRun}>
+          <FeatureSlider />
           <MainSliderTwo />
         </div>
         <div className={styles.venueStrip}>

@@ -8,6 +8,7 @@ import art3 from "../assets/pictures/artist1.jpeg";
 import qr from "../assets/pictures/qr_code.png";
 import lg from "../assets/pictures/logo_1.png";
 import { MainSliderOne } from "./MainSliderOne";
+import Toggle from "./Toggle";
 
 function Events() {
   return (
@@ -31,6 +32,7 @@ function Events() {
       <div className={styles.overTransLayerEv}>
         <div className={styles.eventImgRun}>
           <MainSliderOne />
+          <Toggle />
         </div>
         <div className={styles.venueStrip}>
           <div className={styles.MovingText}>

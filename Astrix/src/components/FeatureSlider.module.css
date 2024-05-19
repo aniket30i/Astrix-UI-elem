@@ -1,0 +1,20 @@
+.emblaF {
+  overflow: hidden;
+  padding-left: 200px;
+  width: auto;
+}
+.emblaContainerF {
+  display: flex;
+  margin-top: 50px;
+  width: auto;
+  gap: 30px;
+}
+.emblaSlideF {
+}
+.venLoc {
+  font-size: 2rem;
+}
+
+.ft {
+  font-size: 1.2rem;
+}
