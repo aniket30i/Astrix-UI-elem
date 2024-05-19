@@ -348,3 +348,64 @@
   border-radius: 15px;
 }
 /* ///////////////// sidebar-events /////////////// */
+
+/*/////////////// Responsiveness////////////////// */
+
+@media (max-width: 1400px) {
+  .subFocus h3 {
+    font-size: 1rem;
+  }
+  .focusDetails {
+    font-size: 1rem;
+    padding-right: 10px;
+  }
+  .pin {
+    gap: 4px;
+  }
+
+  .dateTime {
+    gap: 4px;
+  }
+
+  .dateTime img {
+    height: 27px;
+    width: 29px;
+    filter: invert(1);
+  }
+
+  .imgFocus {
+    height: 110px;
+    width: 80px;
+  }
+
+  .imgFocus img {
+    height: 120px;
+    width: 80px;
+  }
+
+  .venueStrip {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .qrcontainer {
+    padding: 1px;
+  }
+
+  /* /////col//////// */
+
+  .semSidePanelX {
+    width: 350px;
+  }
+
+  .joinBtnX {
+    width: 180px;
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+
+  .joinBtnX p {
+    font-size: 1.5rem;
+    padding: 13px 7px;
+  }
+}

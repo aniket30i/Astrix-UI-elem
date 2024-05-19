@@ -158,7 +158,7 @@ function Events() {
         )}
 
         {isToggle && (
-          <div className={styles.semSidePanel}>
+          <div className={styles.semSidePanelX}>
             <div className={styles.tagLine}>
               <h2>Explore Your First</h2>
               <h2>Collectible</h2>
