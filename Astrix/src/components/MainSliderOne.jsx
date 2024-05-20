@@ -7,7 +7,6 @@ import mos3 from "../assets/pictures/beercup.jpg";
 import mos4 from "../assets/pictures/concert.jpg";
 import Autoplay from "embla-carousel-autoplay";
 import pindrop from "../assets/pictures/pin.png";
-import { useState, useEffect, useRef } from "react";
 
 export function MainSliderOne() {
   const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
