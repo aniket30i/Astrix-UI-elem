@@ -87,7 +87,7 @@
   color: #fff;
   background-color: #b9a0ff;
   width: 100px;
-  height: 96.5vh;
+  height: 98.5vh;
   overflow: hidden;
 }
 
@@ -140,6 +140,12 @@
 .semSidePanel {
   background-color: #15181b;
   width: 500px;
+  margin-right: 5px;
+}
+
+.semSidePanelX {
+  width: 500px;
+  margin-right: 5px;
 }
 
 .tagLine {
@@ -289,6 +295,7 @@
 
 .collections {
   margin-left: 40px;
+  overflow-x: hidden;
 }
 
 .qrcontainer {
@@ -402,7 +409,7 @@
   /* /////col//////// */
 
   .semSidePanelX {
-    width: auto;
+    width: 350px;
   }
 
   .joinBtnX {

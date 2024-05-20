@@ -27,22 +27,49 @@ function Events() {
 
   return (
     <div className={styles.backGround}>
-      <div className={styles.backGroundTpLayer}>
-        <img className={styles.lgImg} src={lg} alt="astrix_logo"></img>
-        <h1 className={styles.brandNm}>Astrix.</h1>
-      </div>
+      {!isToggle && (
+        <>
+          <div className={styles.backGroundTpLayer}>
+            <img className={styles.lgImg} src={lg} alt="astrix_logo"></img>
+            <h1 className={styles.brandNm}>Astrix.</h1>
+          </div>
 
-      <div className={styles.midBranding}>
-        <div className={styles.backGroundMidTop}>
-          <h1>ASTR</h1>
-          <h1>IX</h1>
-        </div>
+          <div className={styles.midBranding}>
+            <div className={styles.backGroundMidTop}>
+              <h1>ASTR</h1>
+              <h1>IX</h1>
+            </div>
 
-        <div className={styles.backGroundMidLow}>
-          <h1>EVE</h1>
-          <h1>NTS</h1>
-        </div>
-      </div>
+            <div className={styles.backGroundMidLow}>
+              <h1>EVE</h1>
+              <h1>NTS</h1>
+            </div>
+          </div>
+        </>
+      )}
+      ;
+      {isToggle && (
+        <>
+          <div className={styles.backGroundTpLayer}>
+            <img className={styles.lgImg} src={lg} alt="astrix_logo"></img>
+            <h1 className={styles.brandNm}>Astrix.</h1>
+          </div>
+
+          <div className={styles.midBranding}>
+            <div className={styles.backGroundMidTop}>
+              <h1>ASTR</h1>
+              <h1>IX</h1>
+            </div>
+
+            <div className={styles.backGroundMidLow}>
+              <h1>COLL</h1>
+              <h1>ECTI</h1>
+              <h1>BLE</h1>
+            </div>
+          </div>
+        </>
+      )}
+      ;
       <div className={styles.overTransLayerEv}>
         <div className={styles.eventImgRun}>
           {!isToggle && <MainSliderOne />}
